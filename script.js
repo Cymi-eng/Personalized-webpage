@@ -28,7 +28,7 @@ function displayUserInfo() {
   document.getElementById("months").innerHTML =
     `You are <strong>${calculateMonths(age)}</strong> months old.`;
 
-  if (age >= 18) {
+  if (age >= 19) {
     document.getElementById("adultContent").innerHTML =
       `<p class="text-green-600">You can access adult content.</p>`;
   } else {
@@ -48,5 +48,4 @@ function displayUserInfo() {
 
   document.getElementById("quotes").innerHTML = quotes;
 }
-
 displayUserInfo();
